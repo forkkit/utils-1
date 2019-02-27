@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Jump right into Retool :D
 // @author       You
-// @match        https://app.intercom.io/a/apps/*/inbox/*
+// @match        https://app.intercom.io/a/apps/*
 // @grant        none
 // @run-at       document-end
 // @require      http://code.jquery.com/jquery-latest.js
