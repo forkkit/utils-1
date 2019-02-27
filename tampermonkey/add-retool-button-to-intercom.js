@@ -32,12 +32,7 @@
       button.attr("href", retoolLink);
     } else {
       const style = "text-decoration: none; margin-left: 4px;";
-      const link =
-        `<a class="stamp retool" style="` +
-        style +
-        `" target="_blank" href="` +
-        retoolLink +
-        `">Retool</a>`;
+      const link = `<a class="stamp retool" style="${style}" target="_blank" href="${retoolLink}">Retool</a>`;
       $(".stamp.o__user").after(link);
     }
   }
