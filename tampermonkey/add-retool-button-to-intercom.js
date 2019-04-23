@@ -34,6 +34,7 @@
       const style = "text-decoration: none; margin-left: 4px;";
       const link = `<a class="stamp retool" style="${style}" target="_blank" href="${retoolLink}">Retool</a>`;
       $(".stamp.o__user").after(link);
+      $(".inbox__user-profile__name-editor").after(link);
     }
   }
 
